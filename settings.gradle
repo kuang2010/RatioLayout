@@ -1,0 +1,3 @@
+rootProject.name='RatioLayout'
+include ':app'
+include ':ratiolayoutlibrary'
