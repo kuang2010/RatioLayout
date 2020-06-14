@@ -24,3 +24,20 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.kuang2010:RatioLayout:1.0.1'
 	}
+
+
+Step 3. Add your project
+
+	<com.kuang2010.ratiolayoutlibrary.RatioLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:picRatio="2.43"
+		app:relative="relative_width">
+		<ImageView
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:src="@mipmap/image"/>
+    	</com.kuang2010.ratiolayoutlibrary.RatioLayout>
+	
+	
+	
